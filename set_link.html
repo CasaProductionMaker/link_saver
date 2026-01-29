@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Link Saver</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="root">
+            <h1>Link Setter</h1>
+            <div class="form_section">
+                <label for="link_input">Link: </label>
+                <input type="text" name="link_input" id="link_input">
+            </div>
+            <div class="form_section">
+                <label for="name_input">Name: </label>
+                <input type="text" name="name_input" id="name_input">
+            </div>
+            <button onclick="setLink()">Submit Link</button>
+        </div>
+        <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    	<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+    	<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+        <script src="set_link.js"></script>
+    </body>
+</html>
