@@ -60,15 +60,21 @@ input {
     background-color: #444;
     border: 1px solid #999;
     border-radius: 20px;
-    padding: 5px;
+    padding: 8px;
     color: #FFF;
     font-size: 18px;
+}
+
+input:focus {
+    border: 2px solid #00ddff;
+    border-radius: 20px;
 }
 
 button {
     background-color: #444;
     border: 1px solid #999;
-    border-radius: 20px;
+    border-radius: 30px;
+    margin: 10px;
     padding: 10px;
     color: #c5ffb9;
     font-size: 18px;

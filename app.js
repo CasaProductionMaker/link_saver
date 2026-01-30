@@ -17,5 +17,9 @@ firebase.database().ref("saved_link").once("value", (data) => {
         const textElement = document.createElement("h2");
         textElement.innerHTML = `Current Link: <a href="${snapshot.link}" target="_blank">${snapshot.name}</a>`
         document.querySelector("#root").appendChild(textElement);
+    } else {
+        const textElement = document.createElement("h2");
+        textElement.innerHTML = `No current link stored. Go to the <a href="set_link.html">link setter</a> to set one.`
+        document.querySelector("#root").appendChild(textElement);
     }
 });

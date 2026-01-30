@@ -18,4 +18,5 @@ function setLink() {
 
     document.querySelector("#link_input").value = "";
     document.querySelector("#name_input").value = "";
+    alert("Link set!")
 }
